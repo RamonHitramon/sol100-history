@@ -1,0 +1,15 @@
+*
+!index.html
+!style.css
+!app.mjs
+!model.mjs
+!helpers.mjs
+!version.json
+!.nojekyll
+!.gitignore
+!README.md
+!data/
+data/*
+!data/report.json
+!data/evidence-manifest.json
+!data/calls-default.csv

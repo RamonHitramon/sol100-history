@@ -1,0 +1,491 @@
+{
+  "cutoffUtc": "2026-10-29T15:29:49+00:00",
+  "pages": [
+    {
+      "file": "closed-2026-10-25/raw/sol-1/page-001.json",
+      "sha256": "27ff2ddbb67bf4b981187a81c3d31414ea452ae452f19a13e40dafd9df3ab831",
+      "fetchedUtc": "2026-10-26T03:53:48.261337+00:00",
+      "from": "1792900500",
+      "to": "1792986670",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-1/page-002.json",
+      "sha256": "32d484dc6648b56d83c293a3ac8ea2c79174ff343d6a55279bdae7c3175021b8",
+      "fetchedUtc": "2026-10-26T03:53:54.440348+00:00",
+      "from": "1792900500",
+      "to": "1792956899",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-1/page-003.json",
+      "sha256": "f1f68e711e55b333aad61cf12b7f7b1a6e87198a2b458104dd88068ff34cb61b",
+      "fetchedUtc": "2026-10-26T03:54:00.715639+00:00",
+      "from": "1792900500",
+      "to": "1792926899",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 88
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-10/page-001.json",
+      "sha256": "41d7850fd77496de15062989644666fcd0b66279f2800121b0acc1ddcaca4154",
+      "fetchedUtc": "2026-10-26T04:22:33.848455+00:00",
+      "from": "1792924500",
+      "to": "1792972800",
+      "address": "EqmEhBSkkVbYzyToVRvPgTUzHMhF1e7q6CRrjySQpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-10/page-002.json",
+      "sha256": "b4b697634451622ce9621e04597b597d277b2b896fbb6b0ee827d4e13ff33e45",
+      "fetchedUtc": "2026-10-26T04:23:00.088250+00:00",
+      "from": "1792924500",
+      "to": "1792931099",
+      "address": "EqmEhBSkkVbYzyToVRvPgTUzHMhF1e7q6CRrjySQpump",
+      "barCount": 22
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-11/page-001.json",
+      "sha256": "6c31700a3141756e66182e2e166e4c649162f42ff95cbc9d225bb77daaeb0bfc",
+      "fetchedUtc": "2026-10-26T04:23:13.096981+00:00",
+      "from": "1792925700",
+      "to": "1792972800",
+      "address": "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-11/page-002.json",
+      "sha256": "b6d0f5b335a1880d8299fcf84f158f4b2d0c64311c524ae2c3710db36d2e1053",
+      "fetchedUtc": "2026-10-26T04:23:26.064737+00:00",
+      "from": "1792925700",
+      "to": "1792942799",
+      "address": "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump",
+      "barCount": 57
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-12/page-001.json",
+      "sha256": "3cbd627f8435c6765f359a55758756c37feb977d6787febbac970402c268e6e2",
+      "fetchedUtc": "2026-10-26T04:23:39.314230+00:00",
+      "from": "1792928700",
+      "to": "1792972800",
+      "address": "5m5whGqrK9hSAhmKUarwR7KkJRK6gLQiTyRrgtkGpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-12/page-002.json",
+      "sha256": "52bda4f5e468f887f97aa6f77b09246d20fd6d210521581e020af914f6f3d1d8",
+      "fetchedUtc": "2026-10-26T04:23:48.941003+00:00",
+      "from": "1792928700",
+      "to": "1792941899",
+      "address": "5m5whGqrK9hSAhmKUarwR7KkJRK6gLQiTyRrgtkGpump",
+      "barCount": 44
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-13/page-001.json",
+      "sha256": "5f35df71399387db20098ef59937e26005e39331dfcbdecf23d56579192debe7",
+      "fetchedUtc": "2026-10-26T04:24:10.336718+00:00",
+      "from": "1792932600",
+      "to": "1792972800",
+      "address": "22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-13/page-002.json",
+      "sha256": "811f895a172e7db14db2818fe8d23f958b1c5da90c7e79c2f87570a3c52820ce",
+      "fetchedUtc": "2026-10-26T04:24:23.242020+00:00",
+      "from": "1792932600",
+      "to": "1792943099",
+      "address": "22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X",
+      "barCount": 35
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-14/page-001.json",
+      "sha256": "7b7122849d4bd84ec3110ff71f61d60ef618e4c907cc02f444c16c19959951ca",
+      "fetchedUtc": "2026-10-26T04:24:33.829693+00:00",
+      "from": "1792934400",
+      "to": "1792972800",
+      "address": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-14/page-002.json",
+      "sha256": "9a074de86bfe25209e64c555d066a34103fb1f3ba21139b5bb7fe10ecd301d97",
+      "fetchedUtc": "2026-10-26T04:25:00.056918+00:00",
+      "from": "1792934400",
+      "to": "1792943099",
+      "address": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
+      "barCount": 29
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-15/page-001.json",
+      "sha256": "1123fee4013694e80df1b28812fd13964926daaa4166250156c943da509e7086",
+      "fetchedUtc": "2026-10-26T04:25:12.962397+00:00",
+      "from": "1792948500",
+      "to": "1792972800",
+      "address": "4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx",
+      "barCount": 82
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-16/page-001.json",
+      "sha256": "dff3f0b7e18f2e1610209eb6c1c00f84981850bca123552cd3f8a723dba4d161",
+      "fetchedUtc": "2026-10-26T04:25:25.917157+00:00",
+      "from": "1792949100",
+      "to": "1792972800",
+      "address": "BYYzapTBwPhb9gnThgW7t5cbn3rgdbKWz4DoRmmhHnTx",
+      "barCount": 80
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-17/page-001.json",
+      "sha256": "a956f9ad53635dd8aa2650968802e3f082cae2d02131f7ee36f039bc382bed78",
+      "fetchedUtc": "2026-10-26T04:25:38.938271+00:00",
+      "from": "1792950000",
+      "to": "1792972800",
+      "address": "2twakgqVuuaQ7EL1mmxv8kUBrXvmfkn9KbBA7ejKD62P",
+      "barCount": 77
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-18/page-001.json",
+      "sha256": "41c067dfca1393d2980c45977dcbfa35af8cf2481eaad73ca95db495997acc03",
+      "fetchedUtc": "2026-10-26T04:25:48.900166+00:00",
+      "from": "1792954500",
+      "to": "1792972800",
+      "address": "6mKrM1kb4jcZeBCo5596nWkM4JrERxkWsj7i157kpump",
+      "barCount": 62
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-19/page-001.json",
+      "sha256": "aaebf0e14b553c3245029896c3fa5a2d1bb65c959c1e5badbd11e739ac3813cf",
+      "fetchedUtc": "2026-10-26T04:26:10.177771+00:00",
+      "from": "1792954500",
+      "to": "1792972800",
+      "address": "PWRDXNBbauWxU2ndLqvW99sdL4ZmsA21LzQoDcmpump",
+      "barCount": 62
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-2/page-001.json",
+      "sha256": "f4ccfefcd05ef6ac722a8b30976d811486b802c3ad2b27b6261207f2a3c12b82",
+      "fetchedUtc": "2026-10-26T03:54:06.863424+00:00",
+      "from": "1792900800",
+      "to": "1792986670",
+      "address": "CdMv759JaWptHangEDKQtnA3sFVne9Uqds47xqBZpump",
+      "barCount": 35
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-20/page-001.json",
+      "sha256": "9bf6c836fe4a1031ae30922da6175b5f831f783f8010531025f1edd387ebe95b",
+      "fetchedUtc": "2026-10-26T04:26:23.093640+00:00",
+      "from": "1792964100",
+      "to": "1792972800",
+      "address": "4WgxC56hGyNXLd14mCgxBuR2DUyDReF8koFDynhepump",
+      "barCount": 30
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-21/page-001.json",
+      "sha256": "9d74d6f24dba9afb5b00b7be601405e107125db6d0001647ce5e16a4ea8b8264",
+      "fetchedUtc": "2026-10-26T04:26:33.919343+00:00",
+      "from": "1792964400",
+      "to": "1792972800",
+      "address": "GLdCa2VQSXho38SFqy91UDPvoDNFPgQc91dM8APYpump",
+      "barCount": 29
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-3/page-001.json",
+      "sha256": "74ac7c879bfc19ae2a9e6100ea1fc34472068c3d4ab1c731e10d6918894abee5",
+      "fetchedUtc": "2026-10-26T03:54:13.075029+00:00",
+      "from": "1792902300",
+      "to": "1792986670",
+      "address": "3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-3/page-002.json",
+      "sha256": "760ae4c99207d16a9c3256ecdbc7889998f7e9be7bff64782e8a27a6618b9752",
+      "fetchedUtc": "2026-10-26T03:54:19.284904+00:00",
+      "from": "1792902300",
+      "to": "1792925099",
+      "address": "3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7",
+      "barCount": 74
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-4/page-001.json",
+      "sha256": "bd8f99f3b3b67130c5c224da6eb97fc55452278080c43421d88115f44ef6a937",
+      "fetchedUtc": "2026-10-26T03:54:25.466948+00:00",
+      "from": "1792903200",
+      "to": "1792986670",
+      "address": "6qRHe66acTg5xo2xjS4kt5R8pX867mEwpwmVPLzypump",
+      "barCount": 19
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-5/page-001.json",
+      "sha256": "d9d39cd22fab76b01013830587e13ea414070f1d6a5ec5086ebb6588edacfe05",
+      "fetchedUtc": "2026-10-26T03:54:31.706525+00:00",
+      "from": "1792903800",
+      "to": "1792986670",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-5/page-002.json",
+      "sha256": "afbdcdfe61ceb8f19999112c796c0b4502d05bdeec976b819942635f47a9ba6e",
+      "fetchedUtc": "2026-10-26T03:54:37.992012+00:00",
+      "from": "1792903800",
+      "to": "1792956599",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-5/page-003.json",
+      "sha256": "fdc5d2d9fb34fe73d3a5ae2f21a43db46ace73eca3d103dd120d1a5a2c2af25a",
+      "fetchedUtc": "2026-10-26T03:54:44.119287+00:00",
+      "from": "1792903800",
+      "to": "1792926599",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 76
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-6/page-001.json",
+      "sha256": "12151e1a7bb5bd7cd98c12b71e6b3d1d92349bf0628aac3a240cf47ba5fcc229",
+      "fetchedUtc": "2026-10-26T03:54:50.356279+00:00",
+      "from": "1792904100",
+      "to": "1792986670",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-6/page-002.json",
+      "sha256": "b4ae4cc1c879c8d519f71eb80484857fa155ce4caad5949f9052d2cc0383c8ba",
+      "fetchedUtc": "2026-10-26T03:54:56.612273+00:00",
+      "from": "1792904100",
+      "to": "1792956599",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-6/page-003.json",
+      "sha256": "f50b292c2eb04bd86ca149ffc88c35a7be6ef00c0493378c13b35a0e6b0f7bf3",
+      "fetchedUtc": "2026-10-26T03:55:02.711464+00:00",
+      "from": "1792904100",
+      "to": "1792926599",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 75
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-7/page-001.json",
+      "sha256": "32181ea12447b216c42d62034054810478a9841bd399e878926a21b588339656",
+      "fetchedUtc": "2026-10-26T03:55:08.927645+00:00",
+      "from": "1792908000",
+      "to": "1792986670",
+      "address": "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump",
+      "barCount": 51
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-8/page-001.json",
+      "sha256": "d9841238ca6b29e8a8a1a01592514b129f42a94f69a53cce2742d21ca7745e49",
+      "fetchedUtc": "2026-10-26T03:55:15.046789+00:00",
+      "from": "1792909800",
+      "to": "1792986670",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-8/page-002.json",
+      "sha256": "f7aa69aa6362c8f5566999e91d9919ab3a7d97c4901652fa88a5113d9cb47aa8",
+      "fetchedUtc": "2026-10-26T03:55:21.259629+00:00",
+      "from": "1792909800",
+      "to": "1792956899",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-8/page-003.json",
+      "sha256": "4a30c3cd90a3ca82c2a374a2e9647f81281c8d92917677c3f9a4140357d59c2c",
+      "fetchedUtc": "2026-10-26T03:55:27.507952+00:00",
+      "from": "1792909800",
+      "to": "1792926899",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 57
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-9/page-001.json",
+      "sha256": "07a1d00352e2a0767d9cd90bc41d8de9f5171723dc668cf9b99c8e84f466b7c4",
+      "fetchedUtc": "2026-10-26T03:55:33.667669+00:00",
+      "from": "1792913700",
+      "to": "1792986670",
+      "address": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
+      "barCount": 100
+    },
+    {
+      "file": "closed-2026-10-25/raw/sol-9/page-002.json",
+      "sha256": "0bb67c894f5a4167b03813e519d3a5bc3fa87117a77c504b09363cb82f07b423",
+      "fetchedUtc": "2026-10-26T04:22:19.145252+00:00",
+      "from": "1792913700",
+      "to": "1792937399",
+      "address": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
+      "barCount": 74
+    },
+    {
+      "file": "raw/sol-1/page-001.json",
+      "sha256": "27ff2ddbb67bf4b981187a81c3d31414ea452ae452f19a13e40dafd9df3ab831",
+      "fetchedUtc": "2026-10-26T03:53:48.261337+00:00",
+      "from": "1792900500",
+      "to": "1792986670",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-1/page-002.json",
+      "sha256": "32d484dc6648b56d83c293a3ac8ea2c79174ff343d6a55279bdae7c3175021b8",
+      "fetchedUtc": "2026-10-26T03:53:54.440348+00:00",
+      "from": "1792900500",
+      "to": "1792956899",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-1/page-003.json",
+      "sha256": "f1f68e711e55b333aad61cf12b7f7b1a6e87198a2b458104dd88068ff34cb61b",
+      "fetchedUtc": "2026-10-26T03:54:00.715639+00:00",
+      "from": "1792900500",
+      "to": "1792926899",
+      "address": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+      "barCount": 88
+    },
+    {
+      "file": "raw/sol-2/page-001.json",
+      "sha256": "f4ccfefcd05ef6ac722a8b30976d811486b802c3ad2b27b6261207f2a3c12b82",
+      "fetchedUtc": "2026-10-26T03:54:06.863424+00:00",
+      "from": "1792900800",
+      "to": "1792986670",
+      "address": "CdMv759JaWptHangEDKQtnA3sFVne9Uqds47xqBZpump",
+      "barCount": 35
+    },
+    {
+      "file": "raw/sol-3/page-001.json",
+      "sha256": "74ac7c879bfc19ae2a9e6100ea1fc34472068c3d4ab1c731e10d6918894abee5",
+      "fetchedUtc": "2026-10-26T03:54:13.075029+00:00",
+      "from": "1792902300",
+      "to": "1792986670",
+      "address": "3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-3/page-002.json",
+      "sha256": "760ae4c99207d16a9c3256ecdbc7889998f7e9be7bff64782e8a27a6618b9752",
+      "fetchedUtc": "2026-10-26T03:54:19.284904+00:00",
+      "from": "1792902300",
+      "to": "1792925099",
+      "address": "3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7",
+      "barCount": 74
+    },
+    {
+      "file": "raw/sol-4/page-001.json",
+      "sha256": "bd8f99f3b3b67130c5c224da6eb97fc55452278080c43421d88115f44ef6a937",
+      "fetchedUtc": "2026-10-26T03:54:25.466948+00:00",
+      "from": "1792903200",
+      "to": "1792986670",
+      "address": "6qRHe66acTg5xo2xjS4kt5R8pX867mEwpwmVPLzypump",
+      "barCount": 19
+    },
+    {
+      "file": "raw/sol-5/page-001.json",
+      "sha256": "d9d39cd22fab76b01013830587e13ea414070f1d6a5ec5086ebb6588edacfe05",
+      "fetchedUtc": "2026-10-26T03:54:31.706525+00:00",
+      "from": "1792903800",
+      "to": "1792986670",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-5/page-002.json",
+      "sha256": "afbdcdfe61ceb8f19999112c796c0b4502d05bdeec976b819942635f47a9ba6e",
+      "fetchedUtc": "2026-10-26T03:54:37.992012+00:00",
+      "from": "1792903800",
+      "to": "1792956599",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-5/page-003.json",
+      "sha256": "fdc5d2d9fb34fe73d3a5ae2f21a43db46ace73eca3d103dd120d1a5a2c2af25a",
+      "fetchedUtc": "2026-10-26T03:54:44.119287+00:00",
+      "from": "1792903800",
+      "to": "1792926599",
+      "address": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
+      "barCount": 76
+    },
+    {
+      "file": "raw/sol-6/page-001.json",
+      "sha256": "12151e1a7bb5bd7cd98c12b71e6b3d1d92349bf0628aac3a240cf47ba5fcc229",
+      "fetchedUtc": "2026-10-26T03:54:50.356279+00:00",
+      "from": "1792904100",
+      "to": "1792986670",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-6/page-002.json",
+      "sha256": "b4ae4cc1c879c8d519f71eb80484857fa155ce4caad5949f9052d2cc0383c8ba",
+      "fetchedUtc": "2026-10-26T03:54:56.612273+00:00",
+      "from": "1792904100",
+      "to": "1792956599",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-6/page-003.json",
+      "sha256": "f50b292c2eb04bd86ca149ffc88c35a7be6ef00c0493378c13b35a0e6b0f7bf3",
+      "fetchedUtc": "2026-10-26T03:55:02.711464+00:00",
+      "from": "1792904100",
+      "to": "1792926599",
+      "address": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+      "barCount": 75
+    },
+    {
+      "file": "raw/sol-7/page-001.json",
+      "sha256": "32181ea12447b216c42d62034054810478a9841bd399e878926a21b588339656",
+      "fetchedUtc": "2026-10-26T03:55:08.927645+00:00",
+      "from": "1792908000",
+      "to": "1792986670",
+      "address": "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump",
+      "barCount": 51
+    },
+    {
+      "file": "raw/sol-8/page-001.json",
+      "sha256": "d9841238ca6b29e8a8a1a01592514b129f42a94f69a53cce2742d21ca7745e49",
+      "fetchedUtc": "2026-10-26T03:55:15.046789+00:00",
+      "from": "1792909800",
+      "to": "1792986670",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-8/page-002.json",
+      "sha256": "f7aa69aa6362c8f5566999e91d9919ab3a7d97c4901652fa88a5113d9cb47aa8",
+      "fetchedUtc": "2026-10-26T03:55:21.259629+00:00",
+      "from": "1792909800",
+      "to": "1792956899",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 100
+    },
+    {
+      "file": "raw/sol-8/page-003.json",
+      "sha256": "4a30c3cd90a3ca82c2a374a2e9647f81281c8d92917677c3f9a4140357d59c2c",
+      "fetchedUtc": "2026-10-26T03:55:27.507952+00:00",
+      "from": "1792909800",
+      "to": "1792926899",
+      "address": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+      "barCount": 57
+    },
+    {
+      "file": "raw/sol-9/page-001.json",
+      "sha256": "07a1d00352e2a0767d9cd90bc41d8de9f5171723dc668cf9b99c8e84f466b7c4",
+      "fetchedUtc": "2026-10-26T03:55:33.667669+00:00",
+      "from": "1792913700",
+      "to": "1792986670",
+      "address": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
+      "barCount": 100
+    }
+  ]
+}
