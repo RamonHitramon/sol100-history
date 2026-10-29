@@ -487,5 +487,20 @@
       "address": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
       "barCount": 100
     }
-  ]
+  ],
+  "phanes": {
+    "retrievedAt": 1793295518.7011037,
+    "apiStatus": 200,
+    "apiRowCount": 151,
+    "exportRowCount": 151,
+    "matchedEvents": 145,
+    "fileSha256": {
+      "phanes-api-ui.json": "b845067eae95d233e799f1431d142264e27a98ba5958676a162413837680cade",
+      "phanes-export.xlsx": "10745d1fb33e8f2cdee9989573c698d9adbbf8a6490a3e3cb1043daf0f588a79",
+      "phanes-command.json": "44576db3ce56adcd89b5b7a114396e5aab599fa9fc02adb53e3cc6e97248bfad",
+      "phanes-export-receipt.json": "8af79979ddc7c72b4f8d7283ffe6a0dbb42afeacccacfa70ce5aebb732258ade"
+    },
+    "credentials": "DApp bearer URL stored privately mode0600, never published",
+    "primaryFrozenCandleEvidenceUnchanged": true
+  }
 }

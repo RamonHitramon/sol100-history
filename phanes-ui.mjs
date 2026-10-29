@@ -1,0 +1,15 @@
+import {phanesScenario} from './phanes.mjs';
+import {esc} from './helpers.mjs';
+const f=(n,d=2)=>Number(n).toLocaleString('en-US',{maximumFractionDigits:d}),utc=t=>new Date(t*1000).toISOString().replace('T',' ').slice(0,19),price=n=>'$'+Number(n).toPrecision(5);
+export function renderPhanes(data,config){
+ const $=id=>document.getElementById(id),p=data.phanes;if(!p)return;
+ $('phanes-coverage').textContent=`API + XLSX: ${p.providerRows} записей; ${p.matchedCalls} / ${data.calls.length} событий сопоставлены по точному CA и единственному событию; ${p.excludedNonCohort} более поздних исключены. Получено ${utc(p.retrievedAt)} UTC. У ${p.delayedJoinCalls} записей Phanes задержка >60 с, отмечено в таблице.`;
+ const calls=data.calls.filter(c=>c.phanes),hi=Math.max(5,...calls.map(c=>c.phanes.conditionalScannerMultiple)),max=Math.log2(1+hi)*1.1,Y=n=>205-Math.log2(1+n)/max*175;
+ let chart='';for(let n of [0,1,2,4,5,10,50,100].filter(n=>n<=hi)){let y=Y(n);chart+=`<path class="grid" d="M35 ${y}H510"/><text x="29" y="${y+3}" text-anchor="end">${n}x</text>`;}
+ calls.forEach((c,i)=>{const a=c.phanes,n=a.conditionalScannerMultiple,x=37+i*470/calls.length,y=Y(n);chart+=`<rect x="${x}" y="${y}" width="${Math.max(1,470/calls.length-1)}" height="${205-y}" fill="${n>=5?'#a1e8b9':n>=4?'#95b9ed':'#56735f'}"><title>${esc(c.id+' '+c.symbol+' '+c.address)}: ${f(n,3)}x условно от scanner; ${f(a.providerMultiple,3)}x от Phanes. Позднее окно, не frozen TP.</title></rect>`;});
+ $('phanes-peaks').innerHTML=`<svg role="img" aria-label="145 условных Phanes MC максимумов, не подтверждённые frozen TP" viewBox="0 0 520 245"><title>145 условных Phanes MC максимумов</title>${chart}<text x="260" y="235" text-anchor="middle">Все 145 событий · порядок сигнала · log2(1+x)</text></svg>`;
+ const scenarios=[4,5].map(t=>phanesScenario(data,config,t));
+ $('phanes-scenarios').innerHTML=scenarios.map(s=>`<div class="statline"><span><b>x${s.target}</b> · условно ≥ цели: ${s.conditionalTouches} / ${calls.length}</span><b>${f(s.targetOnlyGross)} gross → ${f(s.targetOnlyNet)} net</b></div>`).join('')+'<p class="fine">SOL-экв., только условные выходы по цели. Фиксированные расходы и % fee/slip взяты из настроек. Остальные позиции не оценены; PnL всей когорты неизвестен. Ни один такой выход не переведён в категорию подтверждённых до среза.</p>';
+ $('phanes-rows').innerHTML=calls.map(c=>{let a=c.phanes;return `<tr><td><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">${esc(c.id+' '+c.symbol)}</a><small>${esc(c.address)}</small></td><td>${utc(a.calledAt)}<small>${f(a.joinDelaySeconds)} с ${a.delayedJoin?'· ЗАДЕРЖАНО':''}</small></td><td>$${f(a.entryMc,0)} / $${f(a.peakMc,0)}</td><td>${f(a.providerMultiple)}x</td><td>${f(a.scannerSupply,0)}<small>${a.scannerSupplyBasis.startsWith('inferred')?'ОЦЕНКА из округлённого MC':'Сохранённый total_supply'}</small></td><td>${price(a.conditionalPeakPrice)} / ${f(a.conditionalScannerMultiple)}x<small>условно, не подтверждено до среза</small></td><td>${esc(a.providerTimeToAthRounded)}<small>точное время неизвестно</small></td></tr>`;}).join('');
+ window.__phanes={matched:calls.length,scenarios,cutoffVerified:0};
+}
